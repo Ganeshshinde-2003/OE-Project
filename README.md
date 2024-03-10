@@ -20,3 +20,6 @@ This project aims to provide a simplified version solution for uses to deploy th
 
 ### Architecture
  ![Deployfor me Architecture](https://github.com/Ganeshshinde-2003/OE-Vercel-Project/assets/96219910/0821c07c-8bbe-41a9-a92d-e32f56f287a7)
+
+### Figma Design
+[Click here to view](https://www.figma.com/file/U5ASL9F0MakVyns28J5y5r/OE-Project)

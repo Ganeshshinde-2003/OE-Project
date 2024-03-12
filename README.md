@@ -1,4 +1,4 @@
-# OE: Deployment project
+# From Code to Live in Under 30 Seconds 🚀
 
 ### Problem Statement
 Deploying web applications traditionally involves purchasing or provisioning servers, whether on-premises or from cloud providers. Developers then need to configure and maintain these servers manually, including setting up PM2 for continuous running, opening inbound ports, installing dependencies, setting up reverse proxies using Nginx or Apache, and obtaining SSL certificates for HTTPS. This process is time-consuming, error-prone, and requires specialized knowledge. Our project aims to simplify this complex deployment process by automating these tasks, providing a user-friendly platform for developers to deploy their web applications seamlessly

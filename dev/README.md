@@ -1,4 +1,4 @@
-# Vercel/Netlify Clone 🌐
+# Deployment platform 🌐
 
 ### Overview
 

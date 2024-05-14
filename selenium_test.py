@@ -3,8 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Chrome()
-
+driver = webdriver.Chrome(executable_path="./chromedriver")
 driver.get("https://deployfor.me")
 
 time.sleep(15)

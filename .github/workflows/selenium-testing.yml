@@ -13,17 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Download ChromeDriver and Chrome
-        run: |
-          wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/LATEST_RELEASE
-          unzip chromedriver.zip
-          chmod +x chromedriver
-          mv chromedriver $GITHUB_WORKSPACE
-
-          wget -q -O chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i chrome.deb
-          sudo apt-get install -f
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -33,4 +22,4 @@ jobs:
         run: pip install selenium
 
       - name: Run Selenium tests
-        run: python selenium_testing.py
+        run: python selenium_test.py
